@@ -56,6 +56,10 @@
       <Name>Hardly.Common</Name>
       <Private>False</Private>
     </ProjectReference>
+    <ProjectReference Include="..\ValueTupleForDotNet3_5\ValueTuple\ValueTuple.csproj">
+      <Project>{d3263834-f24b-404c-8a70-02a9e1451cdc}</Project>
+      <Name>ValueTuple</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
